@@ -1,4 +1,4 @@
-//memset()»ç¿ë¹ı
+//memset()ì‚¬ìš©ë²•
 #include <stdio.h>
 #include <string.h>
 
@@ -6,7 +6,7 @@ int main(void)
 {
 	char buffer[50];
 
-	memset(buffer, 0, 50);//bufferÀÇ Ã³À½ 50¹ÙÀÌÆ®¸¦ 0À¸·Î ÃÊ±âÈ­
+	memset(buffer, 0, 50);//bufferì˜ ì²˜ìŒ 50ë°”ì´íŠ¸ë¥¼ 0ìœ¼ë¡œ ì´ˆê¸°í™”
 	//buffer==&buffer[0]
 
 	printf("Buffer after memset: ");
@@ -18,6 +18,6 @@ int main(void)
 }
 
 
-//Ãâ·Â °á°ú
+//ì¶œë ¥ ê²°ê³¼
 //Buffer after memset: 00000000000000000000000000000000000000000000000000
 
