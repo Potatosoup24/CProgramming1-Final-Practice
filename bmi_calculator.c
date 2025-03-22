@@ -3,13 +3,13 @@
 int main(void)
 {
 	double height;
-	printf("Å°¸¦ ÀÔ·ÂÇÏ½Ã¿À(m´ÜÀ§·Î) : ");
+	printf("í‚¤ë¥¼ ì…ë ¥í•˜ì‹œì˜¤(më‹¨ìœ„ë¡œ) : ");
 	scanf_s("%lf", &height);
 	double weigth;
-	printf("¸ö¹«°Ô¸¦ ÀÔ·ÂÇÏ½Ã¿À(kg´ÜÀ§·Î) : ");
+	printf("ëª¸ë¬´ê²Œë¥¼ ì…ë ¥í•˜ì‹œì˜¤(kgë‹¨ìœ„ë¡œ) : ");
 	scanf_s("%lf", &weigth);
 
 	double BMI = 0;
 	BMI += weigth / ((height) * (height));
-	printf("´ç½ÅÀÇ BMIÁö¼ö´Â %lf", BMI);
+	printf("ë‹¹ì‹ ì˜ BMIì§€ìˆ˜ëŠ” %lf", BMI);
 }
