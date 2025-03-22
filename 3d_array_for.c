@@ -7,7 +7,7 @@ int main(void)
 		for (int j = 0; j < 3; j++) {
 			for (int k = 0; k < 4; k++) {
 				arr[i][j][k] = (i + 1) * (j + 1) * (k + 1);
-				printf("3Â÷¿ø ¹è¿­ arr[%d][%d][%d]=%d\n", i, j, k, arr[i][j][k]);
+				printf("3Ã‚Ã·Â¿Ã¸ Â¹Ã¨Â¿Â­ arr[%d][%d][%d]=%d\n", i, j, k, arr[i][j][k]);
 			}
 		}
 	}
